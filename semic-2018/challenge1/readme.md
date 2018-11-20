@@ -46,3 +46,5 @@ Example of output:
 Case #1: 4
 Case #2: 9
 ```
+## Solution
+You can find the solution in the *solution* folder.
