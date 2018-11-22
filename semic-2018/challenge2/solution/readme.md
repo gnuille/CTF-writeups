@@ -16,6 +16,13 @@ After that discover we had to possibilies:
 
 * We can find a way of aproximating it
 
+First we thought about implementing the first option but after a bit of
+workarround and finding the formula of calculating the number (in wikipedia)
+we observed that probably the joke of the problem was in realizing that is
+very dificult to calculate so you have to somehow aproximate it.
 
-
-
+What brings us to our next idea, aproximating it, after looking a bit in 
+the wikipedia you can find that for aproximating *p(10000000)* we have 
+the following formula:
+  
+![alt-image](img)
