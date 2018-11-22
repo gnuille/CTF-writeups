@@ -1,3 +1,4 @@
+## Solution
 The solution for this challenge was a bit... Foolish.
 
 After a long search and a lot of confussion (mind that we were told that
