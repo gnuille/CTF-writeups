@@ -1,4 +1,4 @@
-In SEMIC we have some debilitis. One of them is to collect *Lacasitos*
+In SEMIC we have some weakness. One of them is to collect *Lacasitos*
 and *Conguitos* tubes.
 
 ![alt text](image1.jpeg)
