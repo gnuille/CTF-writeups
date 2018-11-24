@@ -1,9 +1,7 @@
-## Forsenics 101
-Think the flag is somewhere in there. 
-Would you help me find it? https://mega.nz/#!OHohCbTa!wbg60PARf4u6E6juuvK9-aDRe_bgEL937VO01EImM7c
+## ctflearn
 
-[alt-image](image.jpg)
+This folder contains challenges I solve from [ctflearn website](https://ctflearn.com).
 
-### Solution
+Challenges are from a lot of types, crypto, forsenics, web, guessing etc..
 
-Check solution folder!
+
