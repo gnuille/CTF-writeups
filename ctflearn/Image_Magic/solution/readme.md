@@ -1,4 +1,4 @@
-## Soltuion
+## Solution
 
 For this challenge there is not much to think about.
 The statement explains clearly what we have to do. 
