@@ -1,9 +1,3 @@
-/*
- * Compute pi by approximating the area under the curve f(x) = 4 / (1 + x*x)
- * between 0 and 1.
- *
- * Parallel version using OpenMP
- */
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
