@@ -19,8 +19,8 @@ double getusec_(){
 				stamp = stamp/1e6;
 
 #ifndef TEST
-#define ALPHABET_SIZE 17
-const static char alphabet[] = {'s','f','g','c','m','S','F','G','C','M','1','3','5','0','!','%','='};
+#define ALPHABET_SIZE 9 
+const static char alphabet[] = {'s','f','c','m','G','1','3','0','%'};
 const static char *hash = "\x0e\xc0\x9e\xf9\x83\x6d\xa0\x3f\x1a\xdd\x21\xe3\xef\x60\x76\x27\xe6\x87\xe7\x90";
 #else
 #define ALPHABET_SIZE 4
@@ -45,7 +45,7 @@ void backtrack(char words[ALPHABET_SIZE+1], char used[ALPHABET_SIZE], int d){
 	int i;
 	for(i = 0; i< ALPHABET_SIZE; i++){
 #ifdef _OPENMP
-	#pragma omp task 
+	#pragma omp task final(d >= 5) mergeable
 #endif
 		if(!used[i]){
 			char *w1 = alloca(ALPHABET_SIZE+1);
